@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - DeathZone
+  - SceneController
+  - Checkpoint
+  - ScreenCover
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Check
+  - Player
+  - MovingGround
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BackgroundFar2
+    uniqueID: 3405899019
+    locked: 0
+  - name: BackgroundFar
+    uniqueID: 150313229
+    locked: 0
+  - name: Background
+    uniqueID: 486861875
+    locked: 0
+  - name: Background2
+    uniqueID: 3156370125
+    locked: 0
+  - name: Background3
+    uniqueID: 3710921339
+    locked: 0
+  - name: Extras
+    uniqueID: 2836024107
+    locked: 0
+  - name: Platform
+    uniqueID: 2522051731
+    locked: 0
+  - name: Item
+    uniqueID: 3507464587
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 2630831367
+    locked: 0
+  - name: Cover
+    uniqueID: 938155303
+    locked: 0
