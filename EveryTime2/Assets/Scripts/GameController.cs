@@ -32,7 +32,8 @@ public static class GameController
 
     static void OnSceneLoad(Scene scene, LoadSceneMode mode)
     {
-        GameObject.FindGameObjectWithTag("ScreenCover").GetComponent<Fade>().StartCoroutine(GameObject.FindGameObjectWithTag("ScreenCover").GetComponent<Fade>().FadeOut());
+        if (data.inLevel)
+            GameObject.FindGameObjectWithTag("ScreenCover").GetComponent<Fade>().StartCoroutine(GameObject.FindGameObjectWithTag("ScreenCover").GetComponent<Fade>().FadeOut());
 
         if (!loadedScenes.Contains(SceneManager.GetActiveScene().name))
         {
@@ -43,7 +44,7 @@ public static class GameController
             loadedScenes.Add(SceneManager.GetActiveScene().name);
         }
 
-        if (useSpawn)
+        if (useSpawn && data.inLevel)
         {
             GameObject.FindGameObjectWithTag("Player").transform.position = playerSpawn;
         }
