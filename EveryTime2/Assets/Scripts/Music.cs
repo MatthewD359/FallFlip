@@ -14,4 +14,9 @@ public class Music : MonoBehaviour
         }
         else Destroy(gameObject);
     }
+
+    void Update()
+    {
+        GetComponent<AudioSource>().volume = data.paused ? .25f : 1;
+    }
 }

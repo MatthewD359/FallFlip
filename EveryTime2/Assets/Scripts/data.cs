@@ -8,6 +8,7 @@ public class data : ScriptableObject
     public static bool running;
     static InputMaster input;
     public static bool inLevel = false;
+    public static bool paused = false;
 
     public static List<string> runestones;
 

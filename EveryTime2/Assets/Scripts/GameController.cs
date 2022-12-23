@@ -35,6 +35,9 @@ public static class GameController
         if (data.inLevel)
             GameObject.FindGameObjectWithTag("ScreenCover").GetComponent<Fade>().StartCoroutine(GameObject.FindGameObjectWithTag("ScreenCover").GetComponent<Fade>().FadeOut());
 
+        data.paused = false;
+        Time.timeScale = 1;
+
         if (!loadedScenes.Contains(SceneManager.GetActiveScene().name))
         {
             foreach (GameObject i in GameObject.FindGameObjectsWithTag("Checkpoint"))
